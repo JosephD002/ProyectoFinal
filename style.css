@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mundo Apple</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<i class="fa fa-bars bars-button" aria-hidden="true" id="bars-button"></i>
+	<div class="navbar">
+		<div class="contenido">
+			<nav class="bars">
+				<ul>
+					<li><a href="#">Nosotros</a></li>
+					<li><a href="#">iPhone 11</a></li>
+					<li><a href="#">iPhone 12</a></li>
+					<li><a href="#">Contacto</a></li>
+
+				</ul>
+				<!--usar para el proyecto final-->
+
+			</nav>
+
+			<div class="title">
+				<a href="#">
+					<h2>Mundo Apple</h2>
+				</a>
+				<!--Boton-->
+				<section>
+					<div class="boton-modal">
+						<label for="btn-modal">
+							<img class="carritoicon" id="carrito"
+								src=https://cdn-icons-png.flaticon.com/512/6811/6811628.png></img>
+						</label>
+					</div>
+				</section>
+				<!--Fin de boton-->
+			</div>
+		</div>
+
+		<!--modal-->
+		<input type="checkbox" id="btn-modal">
+		<div class="container-modal">
+			<div class="content-modal">
+
+				<h1>Productos comprados</h1>
+				<div class="cont-productos" id="cont_productos">
+					<div id="content-modal">
+						<p>ayuda</p>
+					</div>
+				</div>
+				<div class="contenedor-btns"></div>
+				<div class="btn-cerrar">
+					<label for="btn-modal">Cerrar</label>
+
+				</div>
+				<div class="btn-cerrar">
+					<button class="btn-fin" id="btn_fin">Finalizar compra</button>
+				</div>
+
+			</div>
+		</div>
+		<label for="btn-modal" class="cerrar-modal"></label>
+	</div>
+	<!--Fin  modal-->
+	<div class="carrusel">
+		<div class=elemento><img
+				src="https://th.bing.com/th/id/R.32070106efe4b7efb2c291ad0dacfbac?rik=LpjVaCEQdjrcAQ&pid=ImgRaw&r=0">
+		</div>
+		<div class=elemento><img
+				src="https://www.applestore.pk/wp-content/uploads/2020/10/apple-iphone-12-mini-coming-soon-hero-10132020.jpg">
+		</div>
+		<div class=elemento><img
+				src="https://www.macprices.net/blog/wp-content/uploads/2020/10/iphone-12-pro-design-display-kf-md.jpeg">
+		</div>
+	</div>
+	<div class="sobreN">
+		<h2>Sobre nosotros</h2>
+	</div>
+	<div class="textoN">
+		<p>Mas que una tienda somos quienes ayudan a mejorar la calidad telefonica de de la gente,atrayendolos a lo
+			mas nuevo</p>
+	</div>
+	<div class="section">
+		<h2 class=titulo_Iphone>iPhone 11</h2>
+		<h3 class="descripcion-producto">El iPhone 11 es el sucesor del iPhone XR.Algunas de las novedades del iPhone 11
+			incluyen una doble cámara trasera, nuevos colores lavanda y verde, así como mejoras internas con el chip
+			A13. El iPhone 11 hereda la pantalla LCD de 6,1 pulgadas del modelo XR y añade nuevos colores en su
+			exterior</h3>
+		<section class="catalogoP" id="productos-catalogo">
+
+			<div class="catalogo">
+
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://th.bing.com/th/id/R.32070106efe4b7efb2c291ad0dacfbac?rik=LpjVaCEQdjrcAQ&pid=ImgRaw&r=0">
+						<h2 class="titulo-producto1">iPhone 11</h2>
+						<button class="btn-mas-detalles" id="menu_productos" onclick="mostrarContenido()">Más
+							detalles</button>
+						<div id="menu" class="menu">
+							<div class="product">
+								<a href="#">iPhone 11 (64gb) - $300</a>
+								<button class="btni" id="btn1">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 11 (128gb) - $360</a>
+								<button class="btni" id="btn2">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 11 (256gb) - $400</a>
+								<button class="btni" id="btn3">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://th.bing.com/th/id/R.51b5bc8edfb457c28bd94fca1e45ff7b?rik=fNm4y3aho3jF%2bQ&pid=ImgRaw&r=0">
+						<h2 class="titulo-producto1">iPhone 11 Pro</h2>
+						<button class="btn-mas-detalles" id="menu_productos2" onclick="mostrarContenido()">Más
+							detalles</button>
+						<div id="menu2" class="menu">
+							<div class="product">
+								<a href="#">iPhone 11 Pro (64gb) - $300</a>
+								<button class="btni" id="btn4">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 11 Pro (128gb) - $360</a>
+								<button class="btni" id="btn5">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 11 Pro (256gb) - $400</a>
+								<button class="btni" id="btn6">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://th.bing.com/th/id/OIP.pItGbmx_RRtcItCxPDxqEQHaHa?pid=ImgDet&rs=1">
+						<h2 class="titulo-producto1">iPhone 11 Pro Max</h2>
+						<button class="btn-mas-detalles" id="menu_productos3" onclick="mostrarContenido()">Más
+							detalles</button>
+						<div id="menu3" class="menu">
+							<div class="product">
+								<a href="#">iPhone 11 Pro Max (64gb) - $300</a>
+								<button class="btni" id="btn7">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 11 Pro Max (128gb) - $360</a>
+								<button class="btni" id="btn8">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 11 Pro Max (256gb) - $400</a>
+								<button class="btni" id="btn9">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="section">
+		<section class="catalogoP2" id="productos-catalogo2">
+			<h2 class=titulo_Iphone>iPhone 12</h2>
+			<h3 class="descripcion-producto">El iPhone 12 es un teléfono inteligente de Apple que presenta varias
+				novedades en comparación con sus antecesores. Algunas de las características más destacadas del iPhone
+				12 incluyen un nuevo diseño con bordes y líneas rectas, similar al de los iPhone 4, 5 y SE de primera
+				generación, y una parte delantera con la nueva protección Ceramic Shield, que hace a los nuevos iPhone
+				12 cuatro veces más resistentes a las caídas. También cuenta con el chip A14 Bionic, y ofrece soporte
+				para conectividad 5G</h3>
+			<div class="catalogo">
+
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://th.bing.com/th/id/OIP.oG19RiWjYfHcqDNsDENJDgHaID?pid=ImgDet&rs=1">
+						<h2 class="titulo-producto1">iPhone 12</h2>
+						<button class="btn-mas-detalles" id="menu_productos4" onclick="mostrarContenido()">Más
+							detalles</button>
+						<div id="menu4" class="menu">
+							<div class="product">
+								<a href="#">iPhone 12 (64gb) - $350</a>
+								<button class="btni" id="btn10">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 (128gb) - $380</a>
+								<button class="btni" id="btn11">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 (256gb) - $430</a>
+								<button class="btni" id="btn12">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://th.bing.com/th/id/R.0ca33ad4d99d985a2f583cf3dd1d0b4c?rik=pq7KUtZ%2bOkOOpQ&pid=ImgRaw&r=0">
+						<h2 class="titulo-producto1">iPhone 12 mini</h2>
+						<button class="btn-mas-detalles" id="menu_productos5" onclick="mostrarContenido()">Más
+							detalles</button>
+						<div id="menu5" class="menu">
+							<div class="product">
+								<a href="#">iPhone 12 mini (64gb) - $320</a>
+								<button class="btni" id="btn13">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 mini (128gb) - $370</a>
+								<button class="btni" id="btn14">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 mini (256gb) - $420</a>
+								<button class="btni" id="btn15">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://i.ebayimg.com/images/g/~IsAAOSwXOFhMhYk/s-l1200.jpg">
+						<h2 class="titulo-producto1">iPhone 12 Pro </h2>
+						<button class="btn-mas-detalles" id="menu_productos6" onclick="mostrarContenido(menu6)">Más
+							detalles</button>
+						<div id="menu6" class="menu">
+							<div class="product">
+								<a href="#">iPhone 12 Pro (64gb) - $380</a>
+								<button class="btni" id="btn16">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 Pro (128gb) - $430</a>
+								<button class="btni" id="btn17">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 Pro (256gb) - $450</a>
+								<button class="btni" id="btn18">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="presentacion-producto">
+						<img class="product-image"
+							src="https://th.bing.com/th/id/OIP.8IrjwAl8wjGZtBhqReW7xgHaHa?pid=ImgDet&rs=1">
+						<h2 class="titulo-producto1">iPhone 12 Pro Max </h2>
+						<button class="btn-mas-detalles" id="menu_productos7" onclick="mostrarContenido(menu6)">Más
+							detalles</button>
+						<div id="menu7" class="menu">
+							<div class="product">
+								<a href="#">iPhone 12 Pro Max (64gb) - $450</a>
+								<button class="btni" id="btn19">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 Pro Max (128gb) - $510</a>
+								<button class="btni" id="btn20">Añadir al carrito</button>
+							</div>
+							<div class="product">
+								<a href="#">iPhone 12 Pro Max (256gb) - $570</a>
+								<button class="btni" id="btn21">Añadir al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+
+
+	<script src="app.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
+
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", Arial;
+	background-color: #1a1a27;
+	
+}
+
+.navbar {
+	width: 100%;
+	padding: 5px;
+	background-color: #1a1a27;
+	box-sizing: border-box;
+}
+
+.navbar .contenido {
+	max-width: 1024px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.bars ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	width: 400px;
+	justify-content: space-between;
+	padding: 0;
+	padding-left: 4px;
+}
+
+.bars ul li a {
+	text-decoration: none;
+	color: #a2a3b7;
+	transition: 1s;
+	text-transform: uppercase;
+}
+
+.bars ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+div.title {
+	display: flex;
+	align-items: center;
+	padding-right: 4px;
+}
+
+div.title a {
+	text-decoration: none;
+	color: white;
+}
+
+div.title h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.bars-button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .8);
+	display: none;
+	position: fixed;
+	z-index: 99;
+	left: 7px;
+	top: 11px;
+	color: #a2a3b7;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar .contenido {
+		justify-content: flex-end;
+	}
+
+	.bars-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bars {
+		position: fixed;
+		background: rgba(0, 0, 0, .5);
+		z-index: 98;
+		top: 0;
+		left: -100vw;
+		width: 100vw;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		transition: .3s;
+	}
+
+	.bars.is-active {
+		left: 0;
+	}
+
+	.bars ul {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bars ul li {
+		padding: 5px;
+	}
+
+	.bars ul li a {
+		color: #000;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+
+	div.title h2 {
+		padding: 10.5px;
+	}
+}
+
+div.carrito {
+	padding: 10.5px
+}
+
+img.carritoicon {
+	width: 40px;
+	height: 40px;
+}
+
+/*--Boton-Modal--*/
+				
+
+ 
+.boton-modal { 
+	display: flex; 
+	justify-content: right; 
+ 
+} 
+ 
+.boton-modal label { 
+	padding: 10px 15px; 
+ 
+	color: white; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	transition: all 300ms ease; 
+} 
+ 
+.boton-modal label:hover { 
+	background-color: #185E83; 
+} 
+ 
+/*--Fin Boton-Modal--*/ 
+/*--Ventana Modal--*/ 
+ 
+#btn-modal { 
+	display: none 
+} 
+ 
+.container-modal { 
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	background-color: rgba(144, 148, 150, 0.8); 
+	display: none; 
+	justify-content: center; 
+	align-items: center; 
+	z-index: 100 
+} 
+.cont-productos{
+	overflow-y: auto;
+	height: 300px;
+}
+.cont-productos::-webkit-scrollbar{
+	width: 10px;
+}
+.cont-productos::-webkit-scrollbar-thumb{
+   background: #185E83;
+}
+#btn-modal:checked~.container-modal { 
+	display: flex;  
+} 
+ 
+
+.content-modal { 
+	width: 500px; 
+	max-width: 500px; 
+	padding: 20px; 
+	background-color: white; 
+	border-radius: 4px; 
+	overflow-y: visible;
+} 
+
+ 
+.content-modal h2 { 
+	margin-bottom: 15px; 
+} 
+ 
+.content-modal p { 
+	padding: 15px 0px; 
+	border-top: 1px solid #dbdbdb; 
+	border-bottom: 1px solid #dbdbdb; 
+} 
+ 
+.content-modal .btn-cerrar { 
+	width: 100px; 
+	margin-top: 15px; 
+	display: flex;
+	justify-content: space-between; 
+}	
+ 
+.content-modal .btn-cerrar label { 
+	padding: 7px 10px; 
+	background-color: #545454; 
+	color: white; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	transition: all 300ms ease; 
+} 
+ 
+.content-modal .btn-cerrar label:hover { 
+	background-color: #185E83; 
+} 
+.content-modal .btn-fin { 
+	width: 100px; 
+	margin-top: 15px; 
+	display: flex;
+	justify-content: space-between; 
+	
+}	
+.content-modal .btn-fin { 
+	padding: 7px 10px; 
+	background-color: #545454; 
+	color: white; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	transition: all 300ms ease; 
+} 
+.content-modal .btn-fin:hover { 
+	background-color: #185E83; 
+} 
+ 
+.cerrar-modal { 
+	width: 100%; 
+	height: 100vh; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: -1; 
+} 
+ .suma-resta {
+	padding: 7px 10px;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease;
+ }
+ .suma-resta:hover{
+	background-color: #185E83;
+ }
+
+ .input-cantidad{
+	padding: 7px 10px;
+  background-color: gray;
+  color: white;
+  width: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease;
+ }
+@media screen and (max-width:800px) { 
+	.content-modal { 
+		width: 90px; 
+	} 
+}
+
+/*--Fin venntana Modal--*/
+.carrusel {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.elemento {
+	flex: 1 0 auto;
+	margin: 0 50px;
+
+	width: 500px;
+	height: 500px;
+
+}
+
+.elemento img {
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+	object-position: center;
+}
+
+@keyframes slide {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+.carrusel {
+	animation: slide 20s linear infinite;
+}
+
+.sobreN {
+
+	color: white;
+	background-color:  #1a1a27;
+	display: flex;
+	font-size: 25px;
+	align-items: center;
+	justify-content: center;
+    border-top: 5px solid black;
+
+}
+
+.textoN {
+
+	color: white;
+	background-color:  #1a1a27;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 5px solid black;
+
+}
+.section{
+	background-color:  #1a1a27;
+}
+.descripcion-producto{
+	color: white;
+	background-color:  #1a1a27;
+	text-align: center;
+	font-size: 15px;
+	
+}
+.catalogo {
+	color: gainsboro;
+	background-color:  whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	justify-content: space-between;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	
+
+	
+}
+
+.titulo_Iphone {
+	color: white;
+	background-color:  #1a1a27;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-bottom: 5px soli black;
+	
+  }
+.iphone_11 {
+	border: 10px;
+	border-color: #fc0707;
+	border-collapse: collapse
+}
+
+.fotoiPhone {
+	width: 250px;
+	height: 250px;
+}
+
+.btn-iPhone11 {
+	padding: 7px 10px;
+	background-color: #545454;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+.presentacion-producto {
+	width: 300px; 
+	border: 5px solid #ccc;  
+	  border-color : black; 
+	border-radius : 20px;
+	overflow : hidden;
+	background-color : #e4e4e4; 
+	
+}
+
+.product-image {
+	width: 100%;
+	border: 1px solid black
+}
+
+.titulo-producto1 {
+	margin: 0;
+	padding: 10px;
+	background-color: #e4e4e4;
+	color: black;
+	text-align: center;
+	
+}
+
+
+
+.menu {
+	display: block;
+	position: absolute;
+	background-color: rgb(226, 226, 235);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	justify-content: left;
+	min-width: 160px;
+	width: 100%;
+	max-width: 200px;
+	margin-top: 10px;
+}
+
+.menu a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+#menu{
+	clear: both;
+}
+
+
+.product {
+	display: flex;
+	align-items: center;
+	background-color:  #a2a3b7;
+	border: 1px solid black;
+	width: 300px;
+	
+
+}
+
+.product a {
+	margin-right: 10px;
+}
+
+.btni {
+	padding: 7px 10px;
+	background-color: #545454;
+	color: white;
+	height: 70px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 300ms ease
+}
+
+.btni:hover {
+	background-color: #185E83;
+}
+
+
+.btn-mas-detalles {
+	padding: 7px 10px;
+	width: 300px;
+	
+	
+	background-color: #545454;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 300ms ease;
+	font-size: 20;
+}
+
+.btn-mas-detalles:hover {
+	background-color: #185E83;
+}
+
+
+

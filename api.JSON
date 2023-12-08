@@ -1,0 +1,150 @@
+[
+    {
+        "num": "1",
+        "nombre": "iPhone11",
+        "capacidad": "(64gb)",
+        "precio": 300,
+        "cantidad": 1
+    },
+    {
+        "num": "2",
+        "nombre": "iPhone11",
+        "capacidad": "(128gb)",
+        "precio": 360,
+        "cantidad": 1
+    },
+    {
+        "num": "3",
+        "nombre": "iPhone11",
+        "capacidad": "(256gb)",
+        "precio": 400,
+        "cantidad": 1
+    },
+    {
+        "num": "4",
+        "nombre": "iPhone11Pro",
+        "capacidad": "(64gb)",
+        "precio": 330,
+        "cantidad": 1
+    },
+    {
+        "num": "5",
+        "nombre": "iPhone11Pro",
+        "capacidad": "(128gb)",
+        "precio": 380,
+        "cantidad": 1
+    },
+    {
+        "num": "6",
+        "nombre": "iPhone11Pro",
+        "capacidad": "(256gb)",
+        "precio": 420,
+        "cantidad": 1
+    },
+    {
+        "num": "7",
+        "nombre": "iPhone11ProMax",
+        "capacidad": "(64gb)",
+        "precio": 390,
+        "cantidad": 1
+    },
+    {
+        "num": "8",
+        "nombre": "iPhone11ProMax",
+        "capacidad": "(128gb)",
+        "precio": 440,
+        "cantidad": 1
+    },
+    {
+        "num": "9",
+        "nombre": "iPhone11ProMax",
+        "capacidad": "(256gb)",
+        "precio": 490,
+        "cantidad": 1
+    },
+    {
+        "num": "10",
+        "nombre": "iPhone12",
+        "capacidad": "(64gb)",
+        "precio": 350,
+        "cantidad": 1
+    },
+    {
+        "num": "11",
+        "nombre": "iPhone12",
+        "capacidad": "(128gb)",
+        "precio": 380,
+        "cantidad": 1
+    },
+    {
+        "num": "12",
+        "nombre": "iPhone12",
+        "capacidad": "(256gb)",
+        "precio": 430,
+        "cantidad": 1
+    },
+    {
+        "num": "13",
+        "nombre": "iPhone12Mini",
+        "capacidad": "(64gb)",
+        "precio": 320,
+        "cantidad": 1
+    },
+    {
+        "num": "14",
+        "nombre": "iPhone12Mini",
+        "capacidad": "(128gb)",
+        "precio": 370,
+        "cantidad": 1
+    },
+    {
+        "num": "15",
+        "nombre": "iPhone12Mini",
+        "capacidad": "(256gb)",
+        "precio": 420,
+        "cantidad": 1
+    },
+    {
+        "num": "16",
+        "nombre": "iPhone12Pro",
+        "capacidad": "(64gb)",
+        "precio": 380,
+        "cantidad": 1
+    },
+    {
+        "num": "17",
+        "nombre": "iPhone12Pro",
+        "capacidad": "(128gb)",
+        "precio": 430,
+        "cantidad": 1
+    },
+    {
+        "num": "18",
+        "nombre": "iPhone12Pro",
+        "capacidad": "(256gb)",
+        "precio": 490,
+        "cantidad": 1
+    },
+    {
+        "num": "19",
+        "nombre": "iPhone12ProMax",
+        "capacidad": "(64gb)",
+        "precio": 450,
+        "cantidad": 1
+    },
+    {
+        "num": "20",
+        "nombre": "iPhone12ProMax",
+        "capacidad": "(128gb)",
+        "precio": 510,
+        "cantidad": 1
+    },
+    {
+        "num": "21",
+        "nombre": "iPhone12ProMax",
+        "capacidad": "(256gb)",
+        "precio": 570,
+        "cantidad": 1
+    }
+]
+
